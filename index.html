@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+</html>
+<html>
+    <head>
+        <title>Chamali Wijesekara's Portfolio</title>
+    </head>
+</html>
+<html>
+  <head>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+  </head>
+    <body>
+      <header>
+      <nav class="topnav" id="portfolioTopnav">
+        <a href="#contact">Contact</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#skills"> Skills</a>
+        <a href="#about.html"> About</a>
+        <a href="javascript.void(0);" class="icon" onclick="openMenu"> <i class="fa fa-bars"></i></a>
+      </nav>
+        <h1 class="name">Chamali Wijesekara</h1>
+      </header>
+    <main>
+      <div id="aboutsection">
+        <figure>
+          <img src="my image.jpg" alt="image of Chamali." width="200" height="190"/>
+        </figure>
+        <!--About Section -->
+        <h2 id="about" class="heading uppercase">About</h2>
+        <p>I am an academic, public health promoter and a researcher. Currently, I am reading for my PhD in Public Health at QUT. I am passionate about innovative methodologies for health education to improve healthy behaviours of people.</p>
+        <!--Skills Section -->
+        <h3 id="skills">Skills</h3>
+        <h4>Research Skills</h4>
+        <ul class="list">
+            <li>Report writing</li>
+            <li>Planning and designing</li>
+            <li>Data collection</li>
+            <li>Data analysis</li>
+        </ul>
+        <h4>Interpersonal Skills</h4>
+        <ul class="list">
+            <li>Collaborative working</li>
+            <li>Active listening</li>
+            <li>Taking responsibility</li>
+            <li>English language proficiency</li>
+        </ul>
+        <h4>Technical Skills</h4>
+        <ul class="list">
+            <li>Project management</li>
+            <li>Software proficiency</li>
+            <li>Programming language</li>
+        </ul>
+      </div>
+      <div id="accomplishmentssection">
+          <!--Accomplishments Section -->
+        <h2 id="accomplishments">Accomplishments</h2>
+        <table>
+          <tr>
+            <th scope="col">Publications</th>
+            <th scope="col"></th>
+          </tr>
+          <tr>
+            <th scope="col">Awards</th>
+            <th scope="col"></th>
+          </tr>
+          <tr>
+            <th scope="col">Presentations</th>
+            <th scope="col"></th>
+          </tr>
+        </table>
+        <h3>Quiz</h3>
+        <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+      </div>
+      <div id="contactsection">
+          <!--Contact Section -->
+        <h2 id="contact" class="contactform">Contact</h2>
+        <a href="https://www.linkedin.com/in/chamali-wijesekara-a6208b6b" target="_blank">LinkedIn.</a>
+        <br>
+        <br>
+        <form>
+          <label for="name">*Your name:</label>
+          <input type="text" name="name-text-field" id="name" required>
+          <br>
+          <br>
+          <label for="email">*Email</label>
+          <br>
+          <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <br>
+          <br>
+          <label for="mobile">Mobile (optional):</label>
+          <br>
+          <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+          <br>
+          <br>
+          <label for="textarea">*Leave your message below:</label>
+          <br>
+          <textarea id="message" name="message" rows="5" Cols="30" required></textarea>
+          <br>
+          <br>
+          <input type="submit">
+         </form>
+      </div>
+    </main>
+    <script src='nav.js'></script>
+    </body>
+</html>
